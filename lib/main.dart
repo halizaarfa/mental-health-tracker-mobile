@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/menu.dart';
+import 'package:mental_health_tracker/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSwatch(
               primarySwatch: Colors.cyan,
-        ).copyWith(secondary: Colors.cyan[400]),
+        ).copyWith(secondary: Colors.cyan[200]),
         useMaterial3: true,
       ),
       home: MyHomePage(),
