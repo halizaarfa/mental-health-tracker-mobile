@@ -14,3 +14,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Tutorial 9
+### Build Badge
+[![Build status](https://build.appcenter.ms/v0.1/apps/472be2f1-8744-4861-9276-50b844e9053c/branches/main/badge)](https://appcenter.ms)
+
+### [Release](https://install.appcenter.ms/orgs/pbp-individu/apps/mental-health-tracker/distribution_groups/public/releases/1)
