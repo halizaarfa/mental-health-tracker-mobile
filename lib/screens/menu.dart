@@ -12,6 +12,7 @@ class MyHomePage extends StatelessWidget {
   final List<ItemHomepage> items = [
          ItemHomepage("Lihat Mood", Icons.mood),
          ItemHomepage("Tambah Mood", Icons.add),
+         ItemHomepage("Wheel", Icons.bubble_chart),
          ItemHomepage("Logout", Icons.logout),
      ];
 

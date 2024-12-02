@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mental_health_tracker/screens/login.dart';
 import 'package:mental_health_tracker/screens/moodentry_form.dart';
 import 'package:mental_health_tracker/screens/list_moodentry.dart';
+import 'package:mental_health_tracker/spinthewheel/spinthewheel.dart';
 import 'package:pbp_django_auth/pbp_django_auth.dart';
 import 'package:provider/provider.dart';
 
@@ -49,6 +50,12 @@ class ItemCard extends StatelessWidget {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => const MoodEntryPage()),
+            );
+          }
+          else if (item.name == "Wheel") {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => SpinTheWheelPage()),
             );
           }
           else if (item.name == "Logout") {
